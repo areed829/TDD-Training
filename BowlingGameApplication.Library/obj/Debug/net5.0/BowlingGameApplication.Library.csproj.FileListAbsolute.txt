@@ -1,0 +1,12 @@
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\bin\Debug\net5.0\BowlingGameApplication.Library.deps.json
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\bin\Debug\net5.0\BowlingGameApplication.Library.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\bin\Debug\net5.0\ref\BowlingGameApplication.Library.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\bin\Debug\net5.0\BowlingGameApplication.Library.pdb
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\obj\Debug\net5.0\BowlingGameApplication.Library.csprojAssemblyReference.cache
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\obj\Debug\net5.0\BowlingGameApplication.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\obj\Debug\net5.0\BowlingGameApplication.Library.AssemblyInfoInputs.cache
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\obj\Debug\net5.0\BowlingGameApplication.Library.AssemblyInfo.cs
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\obj\Debug\net5.0\BowlingGameApplication.Library.csproj.CoreCompileInputs.cache
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\obj\Debug\net5.0\BowlingGameApplication.Library.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\obj\Debug\net5.0\ref\BowlingGameApplication.Library.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\BowlingGameApplication.Library\obj\Debug\net5.0\BowlingGameApplication.Library.pdb
