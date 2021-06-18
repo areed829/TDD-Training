@@ -1,0 +1,12 @@
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\bin\Debug\net5.0\AccountLibrary.deps.json
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\bin\Debug\net5.0\AccountLibrary.dll
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\bin\Debug\net5.0\ref\AccountLibrary.dll
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\bin\Debug\net5.0\AccountLibrary.pdb
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.csprojAssemblyReference.cache
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.AssemblyInfoInputs.cache
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.AssemblyInfo.cs
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.csproj.CoreCompileInputs.cache
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.dll
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\ref\AccountLibrary.dll
+c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.pdb
