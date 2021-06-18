@@ -214,3 +214,8 @@ C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryTests\bin\Debug\n
 C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryTests\bin\Debug\net5.0\AutoFixture.dll
 C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryTests\bin\Debug\net5.0\AutoFixture.NUnit3.dll
 C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryTests\bin\Debug\net5.0\Fare.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryTests\bin\Debug\net5.0\AccountLibraryCore.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryTests\bin\Debug\net5.0\AccountLibraryCore.pdb
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryTests\bin\Debug\net5.0\AutoFixture.AutoMoq.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryTests\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryTests\bin\Debug\net5.0\Moq.dll

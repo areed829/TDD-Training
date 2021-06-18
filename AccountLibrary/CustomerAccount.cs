@@ -1,17 +1,15 @@
 using System.Collections.Generic;
 using AccountLibrary.Exceptions;
+using AccountLibraryCore;
 
 namespace AccountLibrary
 {
     public class CustomerAccount
     {
+        public IPaymentService paymentService;
         public double Balance { get; private set; }
-        private List<Payment> Payments = new List<Payment>();
-
-        public CustomerAccount()
-        {
-        }
-
+        public int id;
+        
         public CustomerAccount(double openingBalance)
         {
             if (openingBalance > 0)
@@ -21,24 +19,24 @@ namespace AccountLibrary
             Balance = openingBalance;
         }
 
-        public IReadOnlyList<Payment> GetPaymentHistory()
+        public IReadOnlyList<IPayment> GetPaymentHistory()
         {
-            return Payments;
+            return (IReadOnlyList<IPayment>)paymentService.GetPaymentsByCustomerAccountId(id);
         }
 
-        public void MakePayment(Payment payment)
+        public void MakePayment(IPayment payment)
         {
-            this.Payments.Add(payment);
+            paymentService.MakePayment(payment);
         }
 
-        public void MakeMultiplePayments(List<Payment> payments)
+        public void MakeMultiplePayments(List<IPayment> payments)
         {
-            Payments.AddRange(payments);
+            paymentService.MakeMultiplePayments(payments);
         }
 
-        public void SetupPayment(double amount, string description)
+        public void SetupPayment(IPayment payment)
         {
-            Payments.Add(new Payment().Setup(amount, description));
+            paymentService.MakePayment(payment);
         }
     }
 }

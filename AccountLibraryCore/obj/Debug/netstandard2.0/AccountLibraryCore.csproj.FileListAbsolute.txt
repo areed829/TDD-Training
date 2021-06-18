@@ -1,0 +1,9 @@
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryCore\bin\Debug\netstandard2.0\AccountLibraryCore.deps.json
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryCore\bin\Debug\netstandard2.0\AccountLibraryCore.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryCore\bin\Debug\netstandard2.0\AccountLibraryCore.pdb
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryCore\obj\Debug\netstandard2.0\AccountLibraryCore.csprojAssemblyReference.cache
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryCore\obj\Debug\netstandard2.0\AccountLibraryCore.AssemblyInfoInputs.cache
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryCore\obj\Debug\netstandard2.0\AccountLibraryCore.AssemblyInfo.cs
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryCore\obj\Debug\netstandard2.0\AccountLibraryCore.csproj.CoreCompileInputs.cache
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryCore\obj\Debug\netstandard2.0\AccountLibraryCore.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibraryCore\obj\Debug\netstandard2.0\AccountLibraryCore.pdb

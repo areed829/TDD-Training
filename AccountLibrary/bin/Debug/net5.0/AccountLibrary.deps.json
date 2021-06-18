@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "AccountLibrary/1.0.0": {
+        "dependencies": {
+          "AccountLibraryCore": "1.0.0"
+        },
         "runtime": {
           "AccountLibrary.dll": {}
+        }
+      },
+      "AccountLibraryCore/1.0.0": {
+        "runtime": {
+          "AccountLibraryCore.dll": {}
         }
       }
     }
   },
   "libraries": {
     "AccountLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountLibraryCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

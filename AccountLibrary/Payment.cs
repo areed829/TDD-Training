@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Security.Cryptography;
 using AccountLibrary.Exceptions;
+using AccountLibraryCore;
 
 namespace AccountLibrary
 {
-    public class Payment
+    public class Payment : IPayment
     {
         public double Amount { get; private set; }
         public DateTime? Date { get; private set; }
@@ -22,7 +23,7 @@ namespace AccountLibrary
             Description = description;
         }
 
-        public Payment Setup(double amount, string description)
+        public IPayment Setup(double amount, string description)
         {
             ValidateAmount(amount);
             Amount = amount;

@@ -10,3 +10,6 @@ c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0
 c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.dll
 c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\ref\AccountLibrary.dll
 c:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.pdb
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\bin\Debug\net5.0\AccountLibraryCore.dll
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\bin\Debug\net5.0\AccountLibraryCore.pdb
+C:\Users\areed\Desktop\TDD Training\TestProject1\AccountLibrary\obj\Debug\net5.0\AccountLibrary.csproj.CopyComplete
