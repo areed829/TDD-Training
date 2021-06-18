@@ -1,5 +1,6 @@
 ﻿using System;
 using AccountLibrary;
+using AccountLibrary.Exceptions;
 using AutoFixture.NUnit3;
 using NUnit.Framework;
 using Shouldly;
@@ -29,6 +30,20 @@ namespace AccountLibraryTests
             payment.Amount.ShouldBe(amount);
             payment.Description.ShouldBe(description);
             payment.Date.ShouldBe(null);
+        }
+
+        [Test]
+        [AutoData]
+        public void Should_Throw_Exception_When_Balance_LessThan_Zero_in_Constructor(DateTime date, string description)
+        {
+            Should.Throw<InvalidPaymentAmountException>(() => new Payment(-100, date, description));
+        }
+
+        [Test]
+        [AutoData]
+        public void Should_Throw_Exception_When_Balance_LessThan_Zero_in_Setup(string description)
+        {
+            Should.Throw<InvalidPaymentAmountException>(() => new Payment().Setup(-100, description));
         }
     }
 }

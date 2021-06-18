@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Security.Cryptography;
+using AccountLibrary.Exceptions;
 
 namespace AccountLibrary
 {
@@ -15,6 +16,7 @@ namespace AccountLibrary
 
         public Payment(double amount, DateTime date, string description)
         {
+            ValidateAmount(amount);
             Amount = amount;
             Date = date;
             Description = description;
@@ -22,9 +24,18 @@ namespace AccountLibrary
 
         public Payment Setup(double amount, string description)
         {
+            ValidateAmount(amount);
             Amount = amount;
             Description = description;
             return this;
+        }
+
+        private void ValidateAmount(double amount)
+        {
+            if (amount <= 0)
+            {
+                throw new InvalidPaymentAmountException();
+            }
         }
     }
 }

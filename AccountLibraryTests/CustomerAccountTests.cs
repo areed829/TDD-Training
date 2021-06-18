@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using AccountLibrary;
+using AccountLibrary.Exceptions;
 using AutoFixture.NUnit3;
 using NUnit.Framework;
 using NUnit.Framework.Constraints;

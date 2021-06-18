@@ -1,4 +1,4 @@
-namespace AccountLibrary
+namespace AccountLibrary.Exceptions
 {
     public class InvalidOpeningBalanceException : System.Exception
     {
