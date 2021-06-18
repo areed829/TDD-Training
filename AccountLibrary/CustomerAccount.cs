@@ -37,7 +37,7 @@ namespace AccountLibrary
 
         public void SetupPayment(double amount, string description)
         {
-            Payments.Add(new Payment(amount, description));
+            Payments.Add(new Payment().Setup(amount, description));
         }
     }
 }

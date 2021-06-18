@@ -1,5 +1,6 @@
 ﻿using System;
 using AccountLibrary;
+using AutoFixture.NUnit3;
 using NUnit.Framework;
 using Shouldly;
 
@@ -18,6 +19,16 @@ namespace AccountLibraryTests
             payment.Amount.ShouldBe(amount, "Amount mismatch");
             payment.Date.ShouldBe(date, "Date mismatch");
             payment.Description.ShouldBe(description, "Description mismatch");
+        }
+
+        [Test]
+        [AutoData]
+        public void Should_Setup_Payment_With_Amount_And_Description(double amount, string description)
+        {
+            var payment = new Payment().Setup(amount, description);
+            payment.Amount.ShouldBe(amount);
+            payment.Description.ShouldBe(description);
+            payment.Date.ShouldBe(null);
         }
     }
 }

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using AccountLibrary;
 using AutoFixture.NUnit3;
 using NUnit.Framework;
@@ -71,10 +72,10 @@ namespace AccountLibraryTests
         [AutoData]
         public void Account_Should_Make_Payment_Only_With_Amount_and_Description(double amount, string description)
         {
-            var payment = new Payment(amount, description);
+            var payment = new Payment().Setup(amount, description);
             account.SetupPayment(amount, description);
             var history = account.GetPaymentHistory();
-            history.ShouldContain(payment);
+            history.First().ShouldBeEquivalentTo(payment);
         }
     }
 }
